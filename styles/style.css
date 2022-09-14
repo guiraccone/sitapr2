@@ -300,7 +300,8 @@ footer h4 {
 }
 
 #secao-produtos {
-    border: 1rem solid rgb(221, 221, 221);
+    border: 0.5rem solid rgb(180, 180, 180);
+    background-color: rgb(207, 207, 207);
     border-radius: 8rem;
 }
 
@@ -314,6 +315,7 @@ footer h4 {
 .produto {
     padding: 2rem;
     font-family: 'Antonio', sans-serif;
+    color: white;
 
 }
 
@@ -322,8 +324,9 @@ footer h4 {
 }
 
 .produto img {
-    border: solid 0.5rem rgb(207, 207, 207);
-    border-radius: 1rem;
+    border: solid 0.5rem gray;
+    border-bottom: none;
+    border-radius: 4rem 4rem 0 0;
     padding: 1rem;
 }
 
@@ -340,6 +343,8 @@ footer h4 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: gray;
+    border-radius: 0 0 4rem 4rem;
 }
 
 #banner-inicio {
@@ -489,7 +494,7 @@ footer h4 {
 
 }
 
-#botao-acrescentar:focus{
+#botao-acrescentar:focus {
     color: black;
 }
 
@@ -501,7 +506,7 @@ footer h4 {
     color: gray;
 }
 
-#botao-diminuir:focus{
+#botao-diminuir:focus {
     color: black;
 }
 
@@ -513,7 +518,7 @@ footer h4 {
     color: red;
 }
 
-#botao-excluir:focus{
+#botao-excluir:focus {
     color: black;
 }
 
@@ -546,15 +551,25 @@ footer h4 {
     align-items: center;
 }
 
+.avaliacoes{
+    padding-top: 3rem;
+}
+
 
 .header-produto button {
     border: none;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 0.3rem rgb(241, 226, 14) solid;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 4rem;
 }
 
-.header-produto button:hover{
+.header-produto button:hover {
     cursor: pointer;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(218, 218, 218);
+
 }
 
 .header-produto button:focus {
@@ -591,14 +606,14 @@ footer h4 {
 
 }
 
-.imagens-do-produto{
+.imagens-do-produto {
     padding: 4rem;
 }
 
 
 .imagens-do-produto button {
     border: none;
-    
+
     padding: 1rem;
     border: 0.3rem solid rgb(207, 207, 207);
     border-radius: 2rem;
@@ -619,7 +634,7 @@ footer h4 {
     height: 4rem;
 }
 
-.botao-adicionar:hover{
+.botao-adicionar:hover {
     cursor: pointer;
     background-color: gray;
 }
